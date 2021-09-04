@@ -28,7 +28,7 @@ else {
 // Pedir un numero entre 10 y 50
 let numeroEntre = prompt("Ingrese un numero entre 10 y 50");
 
-if ((numeroEntre !='') && ((numeroEntre >=10) && (numeroEntre <=50))){
+if (numeroEntre !='' && numeroEntre >=10 && numeroEntre <=50){
     alert('¡Ganas!');
 }
 else {
